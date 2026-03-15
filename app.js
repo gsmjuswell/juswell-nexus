@@ -23,15 +23,13 @@ import { getStorage,
          deleteObject }            from "https://www.gstatic.com/firebasejs/11.0.2/firebase-storage.js";
 
 // ── ① CONFIGURATION FIREBASE ──────────────────────────────
-// Remplacez les valeurs ci-dessous par vos vraies clés Firebase
-// (Firebase console → Paramètres projet → Vos applications web)
 const firebaseConfig = {
-  apiKey:            "VOTRE_API_KEY",
-  authDomain:        "juswell-nexus.firebaseapp.com",
-  projectId:         "juswell-nexus",
-  storageBucket:     "juswell-nexus.appspot.com",
-  messagingSenderId: "VOTRE_SENDER_ID",
-  appId:             "VOTRE_APP_ID"
+  apiKey: "AIzaSyD7q_Gesg2RuJXsxdQ_pHS5IPFncH2f0do",
+  authDomain: "juswell-nexus.firebaseapp.com",
+  projectId: "juswell-nexus",
+  storageBucket: "juswell-nexus.firebasestorage.app",
+  messagingSenderId: "263365372566",
+  appId: "1:263365372566:web:0a42c038ed96d876e930b7"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
