@@ -20,14 +20,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-storage.js";
 
 // ── CONFIGURATION FIREBASE ─────────────────────────────
-// ⚠️ Remplacez ces valeurs par celles de votre projet Firebase "juswell nexus"
 const firebaseConfig = {
-  apiKey:            "VOTRE_API_KEY",
-  authDomain:        "VOTRE_PROJECT_ID.firebaseapp.com",
-  projectId:         "VOTRE_PROJECT_ID",
-  storageBucket:     "VOTRE_PROJECT_ID.appspot.com",
-  messagingSenderId: "VOTRE_SENDER_ID",
-  appId:             "VOTRE_APP_ID"
+  apiKey: "AIzaSyD7q_Gesg2RuJXsxdQ_pHS5IPFncH2f0do",
+  authDomain: "juswell-nexus.firebaseapp.com",
+  projectId: "juswell-nexus",
+  storageBucket: "juswell-nexus.firebasestorage.app",
+  messagingSenderId: "263365372566",
+  appId: "1:263365372566:web:0a42c038ed96d876e930b7"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
